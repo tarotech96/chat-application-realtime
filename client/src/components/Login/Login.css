@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #2979FF;
+}
+
+.login {
+    width: 20%;
+}
+
+.inputText {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}

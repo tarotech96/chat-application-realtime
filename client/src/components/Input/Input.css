@@ -1,0 +1,98 @@
+.form {
+    display: flex;
+    border-top: 2px solid #D3D3D3;
+}
+
+.input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.sendButton {
+    color: #FFF!important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .form {
+        justify-content: flex-end;
+    }
+
+    .input {
+        width: 50%;
+        height: 20px;
+        font-size: 1em;
+    }
+
+    .sendButton {
+        width: 20%;
+        font-size: 0.5em;
+    }
+}
+
+
+@media only screen and (min-width: 590px) {
+    .form {
+        justify-content: flex-end;
+    }
+
+    .input {
+        width: 50%;
+        height: 20px;
+        font-size: 1em;
+    }
+
+    .sendButton {
+        width: 20%;
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .form {
+        justify-content: flex-end;
+    }
+
+    .input {
+        width: 50%;
+        height: 20px;
+        font-size: 1em;
+    }
+
+    .sendButton {
+        width: 20%;
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .form {
+        justify-content: flex-end;
+    }
+
+    .input {
+        width: 50%;
+        height: 20px;
+        font-size: 1em;
+    }
+
+    .sendButton {
+        width: 20%;
+        font-size: 1.2em;
+    }
+}
